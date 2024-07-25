@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+div.container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+
+table, th, td{
+  border:2px solid black;
+  border-collapse: collapse;
+}
+
+td{
+  resize: horizontal;
+}
+
+.active {
+  background-color: red;
+}
